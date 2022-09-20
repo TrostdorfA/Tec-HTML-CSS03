@@ -1,0 +1,173 @@
+header {
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    opacity: 0.9;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../assets/design1_image1.jpg);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center;
+    background-color: #bff6bf;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body > div {
+    border: solid 2px #777777;
+    background-color: #abe4b5;
+    opacity: 0.8;
+}
+
+body > div > p {
+    font-style: italic;
+    font-size: 60px;
+    display: initial;
+    font-weight: bold; 
+}
+
+nav > ul > li {
+    list-style-type: none;
+    background-color: #31a544;
+    padding: 0px 20px 0px 20px;;
+}
+
+nav > ul > li:hover {
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 16px;
+    transform: scale(1.25);
+    transition: ease 250ms;
+}
+
+#button {
+    background-color:rgb(65, 79, 65);
+}
+
+li > a {
+    text-decoration: none;
+    color: #faf7f7;
+    font-size: 18px;
+}
+
+p > a {
+    text-decoration: underline 2px black;
+}
+
+.container {
+    position: relative;
+    height: 35vh;
+    display: flex;
+    justify-content:right;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo:last-child {
+    justify-content: right;
+}
+
+li.opcion
+{
+   float: left;
+   margin: 0px 6px;
+   border: 2px solid #777777;
+   box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
+}
+
+a.opcion
+{
+    display: block;
+    padding: 5px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dates {
+    display: contents;
+    margin-left: 100px;
+    font-size: 16px;
+    color:#faf7f7;
+}
+
+.text {
+    display: flex;
+    width: 58%;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #faf7f7;
+}
+
+.contact {
+    position: static;
+    display: contents;
+    margin-left: 100px;
+    font-size: 20px;
+    color:#faf7f7;
+}
+
+main > div > div > img {
+    height: 150px;
+}
+
+.caja {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    background: #abe4b5;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #777777;
+    opacity: 0.8;
+}
+
+.container-images {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    overflow: hidden;
+    position:absolute;
+    bottom: 8%;
+    left: 5%;
+    z-index: -1;
+}
+
+.container-images img {
+    max-width: 250px;
+    height: 100%;
+    opacity: 0.8;
+}
+
+nav {
+    position: absolute;
+    top: -80px;
+    width: 600px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.margin {
+    margin: 0px;
+    text-indent: 20px;
+    font-size: 17px;
+}
